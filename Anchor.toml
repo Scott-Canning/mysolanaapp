@@ -1,0 +1,12 @@
+[programs.localnet]
+mysolanaapp = "yuVKvPgp5CjrdM5xbjo5U1DePwN9Qwoc8gBLFc7cf9Z"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/scottcanning/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
